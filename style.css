@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   padding: 20px;
+   background-image: url(img/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 250px;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+header {
+    width: 90%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, .6);
+    position: fixed;
+    left: 5%;
+}
+
+main {
+    margin-top: 60px;
+}
+
+ul {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+ul >  li {
+    list-style-type: none;
+    display: inline;
+    padding: 12px;
+}
+
+#amagar {
+    list-style-type: none;
+    position: absolute;
+    visibility: hidden;
+    top: 29px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+#desplegable:hover #amagar{
+    visibility: visible;
+}
+
+#amagar:hover {
+    visibility: visible;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(90, 3, 131);
+    margin-left: 15px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+table {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    border-collapse: collapse;
+}
+
+table *{
+    border: 2px solid black;
+}
+
+th, caption {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+tr td:nth-child(2) {
+    background-color: rgba(128, 255, 0, 0.6);
+}
+
+tr td:nth-child(3) {
+    background-color: rgba(255, 30, 0, 0.6);
+}
+
+tr td:nth-child(4) {
+    background-color: rgba(223, 202, 17, 0.6);
+}
+
+#spiderman {
+    margin-top: 100px;
+}
