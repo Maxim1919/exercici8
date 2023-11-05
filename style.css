@@ -93,18 +93,23 @@ table *{
 
 th, caption {
     background-color: rgba(255, 255, 255, .6);
+    font-style: oblique;
 }
 
 tr td:nth-child(2) {
     background-color: rgba(128, 255, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
 }
 
 tr td:nth-child(3) {
     background-color: rgba(255, 30, 0, 0.6);
+    font-family: 'Roboto', sans-serif;
+
 }
 
 tr td:nth-child(4) {
     background-color: rgba(223, 202, 17, 0.6);
+    font-family: 'Roboto Slab', serif;
 }
 
 #spiderman {
